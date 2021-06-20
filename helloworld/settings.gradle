@@ -1,0 +1,7 @@
+rootProject.name = "Helloworld"
+include ':app'
+include ':part2_3'
+include ':app:part2_4'
+include ':part2_4'
+include ':part2_5'
+include ':part2_6'

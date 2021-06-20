@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lab3_4Activity">
+
+    <!--  auto Link Test -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가나다라 http://www.goole.com 마바사 a@a.com 아자차카타 010-2552-8287"
+        android:autoLink="web|email|phone"/>
+
+    <!-- Max Line, ellipsize Test -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+    <!-- Customer Font Text  -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fontView"
+        android:text="Custom Font"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hanyoung"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="전화번호 입력"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:text="is UnChecked"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FB08"
+    android:orientation="vertical"
+    tools:context=".Lab3_3Activity">
+
+
+    <Button
+        android:id="@+id/btn_visible_true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visible true" />
+
+    <TextView
+        android:id="@+id/text_visible_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16px"
+        android:background="#FF0000"
+        android:padding="16dp"
+        android:text="Hello world htt://google.com  hyp@hyds.kr   010-2552-8287"
+        android:autoLink="web|email|phone"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_visible_false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visible false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="전화번호 입력" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is unchecked"/>
+
+</LinearLayout>

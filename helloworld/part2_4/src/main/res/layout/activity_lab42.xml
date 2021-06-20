@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab4_2Activity">
+
+    <ImageView
+        android:id="@+id/hanyoung"
+        android:layout_width="80dp"
+        android:layout_height="63dp"
+        android:maxWidth="16dp"
+        android:maxHeight="16dp"
+        android:src="@drawable/hanyoung" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/hanyoung"
+        android:text="홍길동"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요 잘 지내시는지요 ?"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21.5.28"
+        android:layout_alignBaseline="@id/name"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

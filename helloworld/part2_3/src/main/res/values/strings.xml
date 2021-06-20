@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Part2_3</string>
+    <string name="title_activity_lab33">Lab3_3Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="long_text">
+        long text 1
+        long text 2
+        long text 3
+        나는 자랑스런 대한민국 국민이다 동해물과 백두산이 마르고 달도록 하나님이 보우하사 우리나라 만세...
+        나는 자랑스런 대한민국 국민이다 동해물과 백두산이 마르고 달도록 하나님이 보우하사 우리나라 만세...
+        나는 자랑스런 대한민국 국민이다 동해물과 백두산이 마르고 달도록 하나님이 보우하사 우리나라 만세...
+
+    </string>
+</resources>
